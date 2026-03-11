@@ -1,2 +1,10 @@
 # 285-final
 285 final project repo
+
+By running order: 
+base_model.py: Downloads the base model Stable Diffusion v1.5
+before_lora.py: Generate 60 pictures using the base model
+lora_training.py: Finetuing the model with the images in data
+after_lora.py: Generate 60 pictures using the fine-tuned model
+evaluation.py: CLIP evaluation
+fids.py: FID evaluation
